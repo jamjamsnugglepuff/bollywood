@@ -1,0 +1,261 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+body{
+	background-image: url('../../resources/imgs/41957.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 0px;
+	margin: 0;
+}
+
+select{
+    width: auto;
+    max-height: 100px;
+    overflow-wrap: break-word;
+}
+
+.body{
+
+	background-color: white;
+}
+
+.field{
+	/*padding-left: 40px;
+	padding-right: 40px;*/
+	/*display: flex;
+	justify-content: center;*/
+	/*padding: 10px;*/
+	margin: 30px;
+	padding: 20px;
+
+}
+
+.form{
+
+	padding: 20px;
+	margin: 0 auto;
+	border-radius: 5px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: rgba(0,0,0,.4);
+	box-shadow: 15px 15px rgba(0,0,0, .2);
+	max-width: 600px;
+	height: 100%;
+	background-color: white;
+	margin-top: 20px;
+	/*max-height: 800px;*/
+	/*padding: 0;*/
+}
+
+.field{
+
+	display: none;
+	height: 300px;
+	margin: 0;
+	padding: 20px;
+	/*background-color: blue;*/
+}
+
+ .field__label{
+	width: 100%;
+	height: 30px;
+}
+
+.field__input{
+	width: 100%;
+	height: 15px;
+	padding: 2.5px;
+	
+}
+
+.field__text-area{
+	height: 100px;
+	width: 100%;
+}
+
+.field__input--cvv{
+	max-width: 30px;
+}
+
+.field__select{
+	width: 100%;
+	height: 30px;
+	background-color: white;
+	padding: 2.5px;
+	
+}
+
+.field__span--required{
+	color: red;
+	display: none;
+}
+
+.container--form{
+	padding: 30px;
+}
+
+.bcontainer{
+	display: flex;
+	justify-content: center;
+}
+.movie--list{
+	text-decoration: none;
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+.movie--container{
+	max-height: 300px;
+	max-width: 200px;
+
+	margin: 10px;
+
+	background-color: black;
+	list-style: none;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.movie--container img{
+	height: 300px;
+	width: 200px;
+	box-shadow: 2px 5px 5px rgba(0,0,0,.7)
+}
+.bcontainer__btn{
+	margin: 20px;
+}
+
+.invalid{
+	border-color: red !important ; 
+}
+
+.valid{
+	border-color: green !important ;
+}
+
+.header{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 10px;
+	flex-wrap: wrap;
+	background-color: #820a01;
+	color: white;
+	margin: 0;
+
+}
+
+.logo{
+	margin: 0;
+	padding: 0;
+	font-family: 'Sancreek', cursive;
+	color: black;
+	-webkit-text-stroke-width: .1px;
+  -webkit-text-stroke-color: white;
+  font-size: 2.5em
+}
+.header__nav{
+	display: flex;
+
+}
+
+.nav--header{
+	margin: 0;
+	padding: 0;
+}
+
+.ul--header{
+	padding: 0;
+}
+.ul__li--header{
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 0;
+}
+
+.li__a--header{
+	text-decoration: none;
+	color: white;
+}
+
+
+.footer{
+	background-color: black;
+	margin: 0;
+	padding: 0;
+	height: 100px;
+}
+
+
+.ul--footer{
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+	color: white;
+}
+.ul__li--footer{
+	display: inline-block;
+	margin: 10px;
+}
+
+.error-box{
+	background-color: red;
+	padding: 5px;
+	border-style: solid;
+	border-color: beige;
+	border-radius: 5px;
+	border-width: 5px;
+}
+
+.success-box{
+	background-color: green;
+	padding: 5px;
+	border-style: solid;
+	border-color: darkgreen;
+	border-radius: 5px;
+	border-width: 5px;
+}
+
+.error{
+	color: white;
+	display: block;
+}
+
+.success{
+	color: white;
+	display: block;
+}
+
+.container--centered{
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #383838;
+	color: white;
+	padding: 0px
+}
+
+.container{
+	padding: 0px; 
+	margin: 0 auto;
+}
+
+.display--items{
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	border-radius: 3px;
+	padding: 10px;
+	height: 80%;
+	margin: 5px;
+}
